@@ -1,0 +1,10 @@
+
+
+const stocks = ["GOOGL", "MSFT", "AMZN"]
+
+stocks.map((stock) =>{
+    //GOOGL
+    return `${stock}!` //adds ! at end of each stock
+})
+
+- will iterate over stocks, and return what we want to change it to
